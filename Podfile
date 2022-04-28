@@ -7,7 +7,6 @@ target 'PrebidDemo' do
 
   # Pods for PrebidDemo
   pod 'Google-Mobile-Ads-SDK', '8.5.0'
-  pod 'PrebidMobile', '1.12.2'
 
   target 'PrebidDemoTests' do
     inherit! :search_paths
