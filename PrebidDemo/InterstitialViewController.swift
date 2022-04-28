@@ -68,7 +68,7 @@ class InterstitialViewController: UIViewController {
             interstitialAdUnit = InterstitialAdUnit(configId: configId)
         case .video:
             let adUnit = VideoInterstitialAdUnit(configId: configId)
-            let parameters = VideoBaseAdUnit.Parameters()
+            let parameters = VideoParameters()
             parameters.mimes = ["video/mp4"]
             parameters.protocols = [Signals.Protocols.VAST_2_0]
             parameters.playbackMethod = [Signals.PlaybackMethod.AutoPlaySoundOff]

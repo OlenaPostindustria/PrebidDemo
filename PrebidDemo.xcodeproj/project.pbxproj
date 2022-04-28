@@ -22,6 +22,8 @@
 		539E80B12819843D00B9986A /* NativeAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539E80AF2819843D00B9986A /* NativeAdView.swift */; };
 		539E80B22819843D00B9986A /* NativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 539E80B02819843D00B9986A /* NativeAdView.xib */; };
 		539E80B4281984E600B9986A /* NativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539E80B3281984E600B9986A /* NativeViewController.swift */; };
+		53AED421281A7E33000D4761 /* PrebidMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53AED41F281A7D55000D4761 /* PrebidMobile.framework */; };
+		53AED422281A7E33000D4761 /* PrebidMobile.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 53AED41F281A7D55000D4761 /* PrebidMobile.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		58F27F47154B39FF9E313D71 /* Pods_PrebidDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29CEEE0A6D4E4E1B273EC344 /* Pods_PrebidDemo.framework */; };
 		6BCFD97FB526DF5C24925A3C /* Pods_PrebidDemo_PrebidDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D76185835EFF1D1149F7C24 /* Pods_PrebidDemo_PrebidDemoUITests.framework */; };
 		6F2030FE313C735C2D7F3343 /* Pods_PrebidDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F36EDAE92DFE6E4B384E52F4 /* Pods_PrebidDemoTests.framework */; };
@@ -43,6 +45,20 @@
 			remoteInfo = PrebidDemo;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		53AED423281A7E33000D4761 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				53AED422281A7E33000D4761 /* PrebidMobile.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		033FF2160B96AB1675CCEDA2 /* Pods-PrebidDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrebidDemo.release.xcconfig"; path = "Target Support Files/Pods-PrebidDemo/Pods-PrebidDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +85,7 @@
 		539E80AF2819843D00B9986A /* NativeAdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeAdView.swift; sourceTree = "<group>"; };
 		539E80B02819843D00B9986A /* NativeAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeAdView.xib; sourceTree = "<group>"; };
 		539E80B3281984E600B9986A /* NativeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeViewController.swift; sourceTree = "<group>"; };
+		53AED41F281A7D55000D4761 /* PrebidMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PrebidMobile.framework; sourceTree = "<group>"; };
 		CBECC189278385B9321AC922 /* Pods-PrebidDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrebidDemoTests.release.xcconfig"; path = "Target Support Files/Pods-PrebidDemoTests/Pods-PrebidDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		CED0937295772BC1F862522B /* Pods-PrebidDemo-PrebidDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrebidDemo-PrebidDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-PrebidDemo-PrebidDemoUITests/Pods-PrebidDemo-PrebidDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F18C08846194CFEC1F07A2C6 /* Pods-PrebidDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrebidDemo.debug.xcconfig"; path = "Target Support Files/Pods-PrebidDemo/Pods-PrebidDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -80,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53AED421281A7E33000D4761 /* PrebidMobile.framework in Frameworks */,
 				58F27F47154B39FF9E313D71 /* Pods_PrebidDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,6 +137,7 @@
 		539E80552819306900B9986A = {
 			isa = PBXGroup;
 			children = (
+				53AED41F281A7D55000D4761 /* PrebidMobile.framework */,
 				539E80602819306900B9986A /* PrebidDemo */,
 				539E80772819306A00B9986A /* PrebidDemoTests */,
 				539E80812819306A00B9986A /* PrebidDemoUITests */,
@@ -197,6 +216,7 @@
 				539E805B2819306900B9986A /* Frameworks */,
 				539E805C2819306900B9986A /* Resources */,
 				2700CADD96EBE6B33092A21A /* [CP] Embed Pods Frameworks */,
+				53AED423281A7E33000D4761 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -611,6 +631,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L9295BF929;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/olenastepaniuk/Desktop/PrebidMobile,
+					"2022-04-28",
+					/Users/olenastepaniuk/Desktop/Prebid/Demo/PrebidDemo,
+					"10-35-38/Products/Library/Frameworks/",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PrebidDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -641,6 +669,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L9295BF929;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/olenastepaniuk/Desktop/PrebidMobile,
+					"2022-04-28",
+					/Users/olenastepaniuk/Desktop/Prebid/Demo/PrebidDemo,
+					"10-35-38/Products/Library/Frameworks/",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PrebidDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
