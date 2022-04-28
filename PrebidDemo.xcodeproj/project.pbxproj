@@ -137,7 +137,6 @@
 		539E80552819306900B9986A = {
 			isa = PBXGroup;
 			children = (
-				53AED41F281A7D55000D4761 /* PrebidMobile.framework */,
 				539E80602819306900B9986A /* PrebidDemo */,
 				539E80772819306A00B9986A /* PrebidDemoTests */,
 				539E80812819306A00B9986A /* PrebidDemoUITests */,
@@ -197,6 +196,7 @@
 		F20CF6248A26A2A988D1C583 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				53AED41F281A7D55000D4761 /* PrebidMobile.framework */,
 				29CEEE0A6D4E4E1B273EC344 /* Pods_PrebidDemo.framework */,
 				2D76185835EFF1D1149F7C24 /* Pods_PrebidDemo_PrebidDemoUITests.framework */,
 				F36EDAE92DFE6E4B384E52F4 /* Pods_PrebidDemoTests.framework */,
